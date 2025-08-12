@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react"
 import { HangmanDrawing } from "./HangmanDrawing"
 import { HangmanWord } from "./HangmanWord"
-import { Keyboard } from "./keyboard.tsx"
+import { Keyboard } from "./Keyboard.tsx"
 import words from "./wordList.json"
 
 function getWord() {
